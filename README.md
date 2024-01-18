@@ -1,4 +1,5 @@
 # FPGA-GAME-SV
+
 Project Report: FPGA-based Tic-Tac-Toe Game Implementation
 
 1. Introduction
