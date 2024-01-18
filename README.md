@@ -54,4 +54,4 @@ Possible areas for future improvement include implementing more sophisticated ga
 
 10. Acknowledgments
 
-I would like to express gratitude to [Instructor/Supervisor Name] for guidance and support throughout the project.
+I would like to express gratitude to PAVITRA Y J  for guidance and support throughout the project.
