@@ -1,0 +1,80 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Nov 16 19:38:55 2023
+| Host         : DESKTOP-NTDJPMF running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file gameLogic_control_sets_placed.rpt
+| Design       : gameLogic
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    88 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              65 |           28 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              19 |            7 |
+| Yes          | No                    | No                     |              20 |           10 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------+--------------------------------+------------------+------------------+----------------+
+|          Clock Signal          |          Enable Signal         | Set/Reset Signal | Slice Load Count | Bel Load Count |
++--------------------------------+--------------------------------+------------------+------------------+----------------+
+|  cell1/State_reg[1]_i_1_n_0    |                                |                  |                1 |              2 |
+|  cell2/State_reg[1]_i_1__0_n_0 |                                |                  |                1 |              2 |
+|  cell3/State_reg[1]_i_1__1_n_0 |                                |                  |                1 |              2 |
+|  cell5/State_reg[1]_i_1__3_n_0 |                                |                  |                1 |              2 |
+|  cell4/State_reg[1]_i_1__2_n_0 |                                |                  |                1 |              2 |
+|  cell6/State_reg[1]_i_1__4_n_0 |                                |                  |                1 |              2 |
+|  cell7/State_reg[1]_i_1__5_n_0 |                                |                  |                1 |              2 |
+|  cell8/State_reg[1]_i_1__6_n_0 |                                |                  |                1 |              2 |
+|  cell9/State_reg[1]_i_1__7_n_0 |                                |                  |                1 |              2 |
+|  clk_IBUF_BUFG                 |                                |                  |                3 |              4 |
+|  VGA/vga_sync_unit/CLK         |                                |                  |                4 |              6 |
+|  clk_IBUF_BUFG                 | VGA/vga_sync_unit/CLK          |                  |                5 |             10 |
+|  clk_IBUF_BUFG                 | VGA/vga_sync_unit/v_count_reg0 |                  |                5 |             10 |
+| ~state/winState_OBUF           |                                |                  |                7 |             18 |
+|  clk_IBUF_BUFG                 |                                | Reset_IBUF       |                7 |             19 |
+| ~clk_IBUF_BUFG                 |                                |                  |                5 |             19 |
++--------------------------------+--------------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     9 |
+| 4      |                     1 |
+| 6      |                     1 |
+| 10     |                     2 |
+| 16+    |                     3 |
++--------+-----------------------+
+
+

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "C:/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../MAINPROJECT.srcs/sources_1/new/dlatch.sv" \
+"../../../../MAINPROJECT.srcs/sources_1/new/dsads.sv" \
+"../../../../MAINPROJECT.srcs/sources_1/new/saa.sv" \
+"../../../../MAINPROJECT.srcs/sources_1/new/ss.sv" \
+"../../../../MAINPROJECT.srcs/sources_1/new/aaa.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

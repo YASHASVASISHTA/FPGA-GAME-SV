@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jan 18 23:03:18 2024
+# Process ID: 13896
+# Current directory: C:/Users/PC/Desktop/ECE/SEM 3/project_1/project_1.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14428 C:\Users\PC\Desktop\ECE\SEM 3\project_1\project_1.sim\sim_1\behav\xsim\gameLogic_behav.wdb
+# Log file: C:/Users/PC/Desktop/ECE/SEM 3/project_1/project_1.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/PC/Desktop/ECE/SEM 3/project_1/project_1.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\PC\Desktop\ECE\SEM 3\project_1\project_1.sim\sim_1\behav\xsim\gameLogic_behav.wdb}
+close_sim
