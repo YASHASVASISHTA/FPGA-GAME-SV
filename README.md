@@ -1,5 +1,8 @@
 # FPGA-GAME-SV
 
+https://github.com/YASHASVASISHTA/FPGA-GAME-SV/assets/112754882/0669b49a-7320-4c2e-b31e-50c508659ca2
+
+
 Project Report: FPGA-based Tic-Tac-Toe Game Implementation
 
 1. Introduction
